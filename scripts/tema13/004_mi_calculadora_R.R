@@ -21,6 +21,22 @@ PI*2
 magic(5)
 library(magic)
 
+exp(0)
+exp(1)^0
+log(exp(1))
+log(0)
+
+exp(-0.0000999)
+
+log(exp(1))
+log(exp(0))
+
+exp(3) 
+z*x
+
+
+
+
 
 
 
