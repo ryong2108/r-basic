@@ -54,5 +54,31 @@ calculo2 = function(l,m,n){
 calculo2(1,2,3)
 
 
+print(paste(sprintf("%i - %i",a,b),a%%b))
+
+
+opebasicas = function(a,b){
+    print("suma")
+    print(paste(sprinf("%i + %i =",a,b),a+b))
+    print("Resta")
+    print(paste(sprinf("%i - %i =",a,b),a-b))
+    print(paste(sprinf("%i - %i =",b,a),b-a))
+    print("Producto")
+    print(paste(sprinf("%i x %i =",a,b),a*b))
+    print("cociente de la division")
+    print(paste(sprinf("%i : %i =",a,b),a%/%b))
+    print(paste(sprinf("con Resto =",a,b),a%%b))
+    print(paste(sprinf("%i : %i =",b,a),b%/%a))
+    print(paste(sprinf("con Resto =",b,a),b%%a))
+   }
+
+opebasicas(6,4)
+
+
+
+
+
+
+
 
 
