@@ -59,20 +59,30 @@ print(paste(sprintf("%i - %i",a,b),a%%b))
 
 opebasicas = function(a,b){
     print("suma")
-    print(paste(sprinf("%i + %i =",a,b),a+b))
+    print(paste(sprintf("%i + %i =",a,b),a+b))
     print("Resta")
-    print(paste(sprinf("%i - %i =",a,b),a-b))
-    print(paste(sprinf("%i - %i =",b,a),b-a))
+    print(paste(sprintf("%i - %i =",a,b),a-b))
+    print(paste(sprintf("%i - %i =",b,a),b-a))
     print("Producto")
-    print(paste(sprinf("%i x %i =",a,b),a*b))
-    print("cociente de la division")
-    print(paste(sprinf("%i : %i =",a,b),a%/%b))
-    print(paste(sprinf("con Resto =",a,b),a%%b))
-    print(paste(sprinf("%i : %i =",b,a),b%/%a))
-    print(paste(sprinf("con Resto =",b,a),b%%a))
+    print(paste(sprintf("%i x %i =",a,b),a*b))
+    print("cociente de la division entera")
+    print(paste(sprintf("%i : %i =",a,b),a%/%b))
+    print(paste("con Resto =" , a%%b))
+    print("cociente de la division entera")
+    print(paste(sprintf("%i : %i =",b,a),b%/%a))
+    print(paste("con Resto =",b%%a))
    }
 
 opebasicas(6,4)
+
+z1 = complex(real=2,imaginary = round(pi,digits=2))
+
+print(z1)
+
+a=3.1415164
+
+print(round(a,digits =2 ))
+
 
 
 
