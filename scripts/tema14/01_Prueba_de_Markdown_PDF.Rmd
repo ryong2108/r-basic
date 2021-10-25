@@ -67,5 +67,26 @@ cumsum(sec)
 
 ```
 
+cuando queremos hacer la raiz cuadrada de dos podemos hacerlo :
 
+  -   En $latex$ : $\sqrt{2}$
+  -   En `R` seria como : `r round(sqrt(2),2)`
+  -   La frase completa seria : $\sqrt{2}$ = `r round(sqrt(2),2)`
+  
+  
+```{r prueba2 , echo=FALSE,results='hide'}
+notas= c(3,6,7,8,10)
+media=mean(notas)
+n=length(notas)
+desvt=sd(notas)
+
+```
+
+  Este Año he hecho $n=$ `r n` examenes, con una media de
+  $\overline{x} =$ `r media` y una desviacion standar de `r desvt`.
+  
+  
+  
+  
+  
 
