@@ -59,4 +59,13 @@ vamos a calcular $\sqrt{2} - e^{2}$:
 ```
 
 
+```{r ejemplo , echo=TRUE,results='hold',comment=NA}
+
+sec = 1 : 10
+sec
+cumsum(sec)
+
+```
+
+
 
