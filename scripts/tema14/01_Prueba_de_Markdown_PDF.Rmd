@@ -1,0 +1,62 @@
+---
+title: "Prueba de RMarkdown"
+author: "Raul Yong"
+date: "20/10/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## R Markdown
+
+Esto es una formula de Latex
+
+$$ \int_0^1 x\ dx = \left. \frac{x^2}{2}\right]0^1 =\frac{1}{2} $$
+$$\left(\dfrac{a}{b}\right)$$
+
+
+$$[x] =\left\{\begin{array}{rr}
+-x & \text{si } x\le 0 \\
+x & \text{si } x\ge 0
+\end{array}\right.$$
+
+
+
+
+
+
+
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+
+
+
+vamos a calcular $\sqrt{2} - e^{2}$:
+
+```{r calculo , echo=TRUE , comment=NA}
+  sqrt(2) - exp(2)
+```
+
+
+
