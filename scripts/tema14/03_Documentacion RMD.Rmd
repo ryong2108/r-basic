@@ -1,0 +1,84 @@
+---
+title: "prueba de preambulo"
+author: "Raul Yong"
+date: "20/11/2021"
+output: pdf_document
+
+---
+
+# Titulo 1
+## Titulo 2
+### Tittulo 3
+
+Ejemplo de *palabras en cursiva *.
+
+Ejemplo de **Palabras en Negrita**.
+
+Ejemplo de palabras con anotaciones elevadas R^@^.
+
+Dale Click al siguiente link : **[Loteria la Tinka](https://www.latinka.com.pe/p/#)**
+
+endash : -- Y entonces dijo Juan Gabriel : ...
+
+emdash : --- Como Juan queria explicar
+
+
+
+Para graficos es : 
+
+![](C:\USER\003_CURSOS\PROJECTS\MATEMATICAS\r-basic\teoria\Imgs\easy.png)
+
+
+
+
+Ecuaciones $S= \pi\cdot r^2$
+
+
+***
+
+>Hacemos otra cosa
+
+### Lista no ordenada
+
+* Item 1
+* Item 2
+    + sub item2.1
+    + sub item2.2
+* Item 3
+
+
+
+### Lista Ordenada
+
+1. Item 1
+2. Item 2
+3. Item 3
+    + Sub item 3.1
+    + Sub item 3.4
+1. Item 4
+1. Ultimo Item
+
+
+
+### Tablas
+
+Alumno        |       Notas     |   Edad
+--------------|-----------------|--------
+Juan          |       10        |   20
+Raul          |       15        |   25
+Carlos        |       13        |   35
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
