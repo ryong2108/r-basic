@@ -1,0 +1,76 @@
+---
+title: "R & Phyton"
+author: "Raul Yong"
+date: "22/11/2021"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+---
+
+## Reticulate
+
+```{r , comment=NA}
+library(reticulate)
+use_python("/users/ryong/anaconda3/python3.dll")
+##py_install("numpy")
+##py_install("pandas")
+os <- import("os")
+os$listdir(".")
+```
+
+
+```{r}
+source_python("/USER/003_CURSOS/PROJECTS/MATEMATICAS/r-basic/scripts/tema14/sumapy.py")
+suma(5,7)
+```
+
+
+```{r}
+np <- import("numpy", convert = FALSE)
+x <- np$array(c(1:6))
+sum= x$cumsum()
+
+print(sum)
+
+py_to_r(sum)
+
+```
+
+#arrays
+
+```{r}
+a <- np_array(c(1:6), order="C") 
+a
+
+```
+
+
+
+
+#convertir datos de r a py
+
+
+
+```{r}
+datos <-iris
+head(datos)
+
+datos_py <- r_to_py(datos)
+```
+
+
+
+
+
+```{python}
+import numpy as np
+import pandas as pd
+
+r.datos_py.head()
+
+```
+
+
+
+
